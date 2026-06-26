@@ -100,5 +100,15 @@ python simple_cli.py
 3. 确保 Python 版本 >= 3.11
 
 ---
+### 💻 核心代码（程序内部工作，不用理）
+| 目录/文件 | 作用 |
+|----------|------|
+| `kamaclaude/` | 核心包目录 |
+| `kamaclaude/main.py` | 程序入口 |
+| `kamaclaude/core/agent.py` | Agent 大脑 |
+| `kamaclaude/core/llm.py` | 连接 AI |
+| `kamaclaude/core/tools.py` | 工具箱 |
+| `kamaclaude/core/*.py` | 其他核心模块 |
+
 
 现在去试试 `python kamaclaude_tui.py` 吧！
