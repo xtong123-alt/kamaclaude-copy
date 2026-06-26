@@ -111,4 +111,25 @@ python simple_cli.py
 | `kamaclaude/core/*.py` | 其他核心模块 |
 
 
+# 🛠️ KamaClaude 可以执行的任务类型
+## 📁 1. 文件操作类
+你可以说 效果 列出当前目录文件 list_dir 读取 README.md read_file 创建一个 test.py write_file 修改 config.py write_file
+
+## 💻 2. 命令执行类
+你可以说 效果 运行 pip list bash 执行 python test.py bash `看看安装了哪些包 bash
+
+## 🔍 3. 项目分析类
+你可以说 分析这个项目的结构 这个项目是干什么的 有哪些 Python 文件
+
+## 📝 4. 代码编写类
+你可以说 写一个计算器脚本 创建一个待办事项程序 写个简单的爬虫
+
+## 🎯 总结
+KamaClaude 的核心能力：
+
+1. 文件操作 （查看、创建、修改文件）
+2. 系统命令 （运行终端命令）
+3. 项目分析 （理解代码库）
+4. 代码生成 （写程序）
+
 现在去试试 `python kamaclaude_tui.py` 吧！
